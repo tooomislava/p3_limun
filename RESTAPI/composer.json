@@ -1,0 +1,20 @@
+{
+    "name": "zilic-php/p3restapi",
+    "description": "Primjer kreiranja REST API za potrebe kolegija Programiranje 3",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Tomislava Zilic",
+            "email": "tzilic@ffos.hr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Zilic\\": "src/Zilic"
+        }
+    },
+    "require": {
+        
+        "fzaninotto/faker": "^1.9"
+    }
+}
